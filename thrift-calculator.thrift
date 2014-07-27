@@ -12,7 +12,7 @@ enum Operation {
 struct Work {
     1: i32 arg1,
     2: i32 arg2,
-    3: Operation operacja
+    3: Operation operation
 }
 
 exception InvalidOperation {
